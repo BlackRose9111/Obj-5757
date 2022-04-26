@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1282518394994274812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282518394994274814}
+  - component: {fileID: 1282518394994274813}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282518394994274814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282518394994274812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1282518394994274813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282518394994274812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7ade0c01f60c543aa4e32356f35ef5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  satir: 15
+  sutun: 15
+  duration: 3
+  bluePieces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  redPieces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  greenPieces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  yellowPieces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bluePath: []
+  prefab: {fileID: 3596675005776474754, guid: 3b0f08de0273a844db03de7266bf0d95, type: 3}
+  red: {fileID: 2100000, guid: 5181bfa5c7c579c4e9094c3ed2aab953, type: 2}
+  blue: {fileID: 2100000, guid: 33e586574a285514e84c8c0369afeae3, type: 2}
+  green: {fileID: 2100000, guid: 57d4fb1c2d9b1cb4e8c45959a3650571, type: 2}
+  yellow: {fileID: 2100000, guid: 332c8c203a40b40468e4837b57161f18, type: 2}
+  white: {fileID: 2100000, guid: 85f0e1bb2c5927241910fb5469e39f7f, type: 2}
+  StartPoints: {fileID: 2100000, guid: 5c323a359f1a19c4985f01d46a39b04f, type: 2}
+  piece: {fileID: 7129667185328645697, guid: 20aeaeafa73d17648bcea6b5948977bf, type: 3}
+  taslar:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnBlue: 1
+  spawnRed: 1
+  spawnGreen: 1
+  spawnYellow: 1
+  dieFaces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  diceObject: {fileID: 0}
+  indicator: {fileID: 0}
+  firstTeamValue: 4
+  lastTeamValue: 0
+  teamCount: 0
+  teamTurnCounter: 0
+  passedTeam: 0

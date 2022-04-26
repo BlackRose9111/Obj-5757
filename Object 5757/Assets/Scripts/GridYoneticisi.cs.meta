@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6f7ade0c01f60c543aa4e32356f35ef5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab: {fileID: 3596675005776474754, guid: 3b0f08de0273a844db03de7266bf0d95, type: 3}
+  - red: {instanceID: 0}
+  - blue: {instanceID: 0}
+  - green: {instanceID: 0}
+  - yellow: {instanceID: 0}
+  - white: {instanceID: 0}
+  - StartPoints: {instanceID: 0}
+  - piece: {fileID: 7129667185328645697, guid: 20aeaeafa73d17648bcea6b5948977bf, type: 3}
+  - diceObject: {instanceID: 0}
+  - indicator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
